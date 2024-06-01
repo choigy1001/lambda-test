@@ -27,6 +27,6 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 jar {
-	enabled = true
-	archiveFileName = 'app.jar'
+	enabled = false
+//	archiveFileName = 'app.jar'
 }
