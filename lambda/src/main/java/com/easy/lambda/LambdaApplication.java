@@ -6,7 +6,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.web.WebApplicationInitializer;
 
 @SpringBootApplication
-public class LambdaApplication extends SpringBootServletInitializer implements WebApplicationInitializer {
+public class LambdaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LambdaApplication.class, args);
